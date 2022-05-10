@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário - Hábitos Saudáveis</title>
+    </head>
+    <body>
+        <div style="margin-left: 170px; padding: 20px; border: 1px; border-style: solid; border-color: black; width: 950px; height: 298px;">
+            Faça:
+            <ol>
+                <li>Preencha as informações sobre você; </li>
+                <li>Escolha uma opção (pelo menos) de fruta e de hobby;</li>
+                <li>Escreva sobre você.</li>
+            </ol>
+            <table style="width: 110%;">
+                <tr>
+                    <td>
+                        <form>
+                            Nome:
+                            <input type="text" name="nome">
+                            </br>
+                            </br>
+                            Data de Nascimento:
+                            <input type="date" name="data">
+                            </br>
+                            </br>
+                            Frutas que você gosta:
+                            <div style="margin: 5px; padding: 20px; border: 1px; border-style: solid; border-color: black; width: 250px; height: 50px;">
+                                <input type="checkbox" name="mamao">
+                                Mamão
+                                <input type="checkbox" name="laranja">
+                                Laranja
+                                <input type="checkbox" name="abacate">
+                                Abacate
+                                </br>
+                                <input type="checkbox" name="abacaxi">
+                                Abacaxi
+                                <input type="checkbox" name="maca">
+                                Maçã
+                                <input type="checkbox" name="morango">
+                                Morango
+                            </div>
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                            Gênero:
+                            <input type="radio" name="genero" value="Feminino">Feminino
+                            <input type="radio" name="genero" value="Masculino">Masculino
+                            <input type="radio" name="genero" value="Outro">Outro
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="margin-left: 170px; padding: 20px; border: 1px; border-style: solid; border-color: black; border-top: none; width: 950px; height: 230px;">
+            <table style="width: 110%;">
+                <tr>
+                    <td>
+                        <form>
+                            <p>Fale sobre você:</p>
+                            </br>
+                            <textarea name="bio" rows="5" cols="33">
+                            </textarea>
+                            </br>
+                            </br>
+                            Usuário:
+                            <input type="text" name="user">
+                            </br>    
+                            </br>
+                            Senha:
+                            <input type="password" name="senha">
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                            Você gosta de falar sobre si?
+                            <select name="simounao">
+                                <option value ="1">Sim</option>
+                                <option value ="2">Não</option>
+                            </select>
+                            </br>
+                            </br>
+                            <p>Hobbies:</p>
+                            <select name="esportes" multiple>
+                                <option value ="1">Correr</option>
+                                <option value ="2">Nadar</option>
+                                <option value ="3">Tênis</option>
+                                <option value ="4">Futebol</option>
+                                <option value ="5">Dançar</option>
+                                <option value ="6">Música</option>
+                            </select>
+                            </br>
+                            </br>
+                            <input type="submit" name="enviar">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+ </html>
